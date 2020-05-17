@@ -15,5 +15,6 @@ Note that we strongly suggest the following unit conversions defined in OpenMM, 
  * kcal/mol to kJ/mol conversion factor is defined as 4.184.
  
 ### Force field DOI
-  * [![DOI](https://zenodo.org/badge/XXX/USER_NAME/YOUR_FORCEFIELD_REPO.svg)](https://zenodo.org/badge/latestdoi/XXX/USER_NAME/YOUR_FORCEFIELD_REPO)
+  * [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3831433.svg)](https://doi.org/10.5281/zenodo.3831433)
+
 
