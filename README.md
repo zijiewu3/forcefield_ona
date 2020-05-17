@@ -5,15 +5,9 @@
 
  * Forcefield file initially created April 30 by Z. Wu.
 
-#### Source Notes:
-< Add specific notes about parameters, e.g., if a set of parameters comes verbatim from prior work, provide details and a DOI >
-
 #### Additional Notes:
-< Add any other relevant information. Also for consistency, please define conversion factors used. 
-Note that we strongly suggest the following unit conversions defined in OpenMM, e.g.: >
- * PI is defined as 3.141592653589 for conversion to radians.
- * kcal/mol to kJ/mol conversion factor is defined as 4.184.
- 
+Due to the limitation of foyer's application, care needs to be given that all units in a written-out .top file is, regardless of the indicated units in file, in reduced unit.
+The write_to_lammps method in mbuild is able to handle the reduced unites ('lj unit') correctly given the appropriate arguments. 
 ### Force field DOI
   * [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3831433.svg)](https://doi.org/10.5281/zenodo.3831433)
 
