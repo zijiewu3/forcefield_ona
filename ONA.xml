@@ -26,23 +26,23 @@
  </HarmonicAngleForce>
  <PeriodicTorsionForce>
   <!-- Note, the units of k are in eps-->
-  <Proper class1="HBC" class2="BBC" class3="BBC" class4="HBC" periodicity1="1" phase1="0" k1="12.5523"/>
-  <Proper class1="HBC" class2="BBC" class3="BBT" class4="HBT" periodicity1="1" phase1="0" k1="12.5523"/>
-  <Proper class1="HBT" class2="BBT" class3="BBC" class4="HBC" periodicity1="1" phase1="0" k1="12.5523"/>
-  <Proper class1="HBT" class2="BBT" class3="BBT" class4="HBT" periodicity1="1" phase1="0" k1="12.5523"/>
-  <Proper class1="HBA" class2="BBA" class3="BBT" class4="HBT" periodicity1="1" phase1="0" k1="12.5523"/>
-  <Proper class1="HBT" class2="BBT" class3="BBA" class4="HBA" periodicity1="1" phase1="0" k1="12.5523"/>
+  <Proper type1="HBC" type2="BBC" type3="BBC" type4="HBC" periodicity1="1" phase1="0" k1="12.5523"/>
+  <Proper type1="HBC" type2="BBC" type3="BBT" type4="HBT" periodicity1="1" phase1="0" k1="12.5523"/>
+  <Proper type1="HBT" type2="BBT" type3="BBC" type4="HBC" periodicity1="1" phase1="0" k1="12.5523"/>
+  <Proper type1="HBT" type2="BBT" type3="BBT" type4="HBT" periodicity1="1" phase1="0" k1="12.5523"/>
+  <Proper type1="HBA" type2="BBA" type3="BBT" type4="HBT" periodicity1="1" phase1="0" k1="12.5523"/>
+  <Proper type1="HBT" type2="BBT" type3="BBA" type4="HBA" periodicity1="1" phase1="0" k1="12.5523"/>
 
-  <Proper class1="HBG" class2="BBG" class3="BBT" class4="HBT" periodicity1="1" phase1="0" k1="25.1046"/> 
-  <Proper class1="HBT" class2="BBT" class3="BBG" class4="HBG" periodicity1="1" phase1="0" k1="25.1046"/> 
-  <Proper class1="HBG" class2="BBG" class3="BBC" class4="HBC" periodicity1="1" phase1="0" k1="25.1046"/> 
-  <Proper class1="HBC" class2="BBC" class3="BBG" class4="HBG" periodicity1="1" phase1="0" k1="25.1046"/> 
-  <Proper class1="HBA" class2="BBA" class3="BBC" class4="HBC" periodicity1="1" phase1="0" k1="25.1046"/> 
-  <Proper class1="HBC" class2="BBC" class3="BBA" class4="HBA" periodicity1="1" phase1="0" k1="25.1046"/> 
+  <Proper type1="HBG" type2="BBG" type3="BBT" type4="HBT" periodicity1="1" phase1="0" k1="25.1046"/> 
+  <Proper type1="HBT" type2="BBT" type3="BBG" type4="HBG" periodicity1="1" phase1="0" k1="25.1046"/> 
+  <Proper type1="HBG" type2="BBG" type3="BBC" type4="HBC" periodicity1="1" phase1="0" k1="25.1046"/> 
+  <Proper type1="HBC" type2="BBC" type3="BBG" type4="HBG" periodicity1="1" phase1="0" k1="25.1046"/> 
+  <Proper type1="HBA" type2="BBA" type3="BBC" type4="HBC" periodicity1="1" phase1="0" k1="25.1046"/> 
+  <Proper type1="HBC" type2="BBC" type3="BBA" type4="HBA" periodicity1="1" phase1="0" k1="25.1046"/> 
 
-  <Proper class1="HBG" class2="BBG" class3="BBG" class4="HBG" periodicity1="1" phase1="0" k1="37.6569"/>
-  <Proper class1="HBA" class2="BBA" class3="BBA" class4="HBA" periodicity1="1" phase1="0" k1="37.6569"/>
-  <Proper class1="HBG" class2="BBG" class3="BBA" class4="HBA" periodicity1="1" phase1="0" k1="37.6569"/>
-  <Proper class1="HBA" class2="BBA" class3="BBG" class4="HBG" periodicity1="1" phase1="0" k1="37.6569"/>
+  <Proper type1="HBG" type2="BBG" type3="BBG" type4="HBG" periodicity1="1" phase1="0" k1="37.6569"/>
+  <Proper type1="HBA" type2="BBA" type3="BBA" type4="HBA" periodicity1="1" phase1="0" k1="37.6569"/>
+  <Proper type1="HBG" type2="BBG" type3="BBA" type4="HBA" periodicity1="1" phase1="0" k1="37.6569"/>
+  <Proper type1="HBA" type2="BBA" type3="BBG" type4="HBG" periodicity1="1" phase1="0" k1="37.6569"/>
  </PeriodicTorsionForce>
 </ForceField>
